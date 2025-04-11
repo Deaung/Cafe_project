@@ -1,4 +1,11 @@
 /* 헤더 문구 클릭 시 루트로 가게끔... */
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 .header button {
     all: unset; 
     font-size: 2rem; 
@@ -7,4 +14,5 @@
     display: block; 
     text-align: center; 
     margin: 10px 0;
+    font-family: 'Cafe24Ssurround';
 }

@@ -1,4 +1,13 @@
 /* 각 카페 별 이미지 */
+@font-face {
+  font-family: 'Cafe24Ssurround';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
 .central-cafe img{
   width: 330px;
   height: 330px;
@@ -9,31 +18,11 @@
   flex-direction: column;
 }
 
-.central-top{
-  margin-left: 250px;
-  margin-top: 50px;
-  display: flex;
-  gap: 80px;
-}
-
-.central-bottom{
-  margin-left: 250px;
-  margin-top: 30px;
-  display: flex;
-  gap: 120px;
-}
 
 .central-part1{
   display: flex;
   gap: 30px;
 }
-
-.central-part1 :hover{
-}
-
-/* .part-1-detail{
-  display: none;
-} */
 
 .central-part2{
   display: flex;
@@ -48,4 +37,21 @@
 .central-part4{
   display: flex;
   gap: 30px;
+}
+
+.part-1-detail{
+  font-family: 'Cafe24Ssurround';
+  font-size: 24px;
+}
+.part-2-detail{
+  font-family: 'Cafe24Ssurround';
+  font-size: 24px;
+}
+.part-3-detail{
+  font-family: 'Cafe24Ssurround';
+  font-size: 24px;
+}
+.part-4-detail{
+  font-family: 'Cafe24Ssurround';
+  font-size: 24px;
 }

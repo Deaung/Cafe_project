@@ -18,7 +18,7 @@ export default function Eastern() {
                 <a href="https://naver.me/GWeDhKuX" target="_blank" rel="noopener noreferrer">
                     <img src={easternCafeImg1} alt="카페 두루미 베이커리 이미지" />
                 </a>
-                <div>
+                <div className="part-1">
                 <p>두루미 베이커리 카페</p>
                 <p>주차시절이 잘 되어있고, 애견 동반이 가능하고 커피가 맛있음</p>
                 <p>#애견동반 가능 #강아지 귀여움</p>
