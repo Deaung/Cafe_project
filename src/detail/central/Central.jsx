@@ -1,5 +1,6 @@
 import Footer from "../../footer/Footer.jsx";
 import Header from "../../header/Header.jsx";
+import SwiperImage from "../../component/ImgMove.js";
 
 import "./Central.css";
 
@@ -13,8 +14,10 @@ export default function Central() {
         <div className="central-cafe">
             <Header />
             
-            
+            <SwiperImage data={centralCafeImg1, centralCafeImg2, centralCafeImg3}/>
                 <div className="central-part1">
+
+                    
                     <a href="https://naver.me/5Q3mYIGJ" target="_blank" rel="noopener noreferrer">
                         <img src={centralCafeImg1} alt="카페 이내 무목 이미지"  />
                     </a>
