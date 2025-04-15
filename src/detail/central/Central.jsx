@@ -1,26 +1,28 @@
 import Footer from "../../footer/Footer.jsx";
 import Header from "../../header/Header.jsx";
-import SwiperImage from "../../component/ImgMove.js";
-
+// import SwiperImage from "../../component/ImgMove.tsx";
 import "./Central.css";
+import SlideImg from '../../component/Slideimg.jsx'
 
 import centralCafeImg1 from "../../img/centralCafe1.jpg";
 import centralCafeImg2 from "../../img/centralCafe2.jpg";
 import centralCafeImg3 from "../../img/centralCafe3.jpg";
 import centralCafeImg4 from "../../img/centralCafe4.jpg";
 
+
 export default function Central() {
     return (
         <div className="central-cafe">
             <Header />
             
-            <SwiperImage data={centralCafeImg1, centralCafeImg2, centralCafeImg3}/>
+                
                 <div className="central-part1">
 
                     
                     <a href="https://naver.me/5Q3mYIGJ" target="_blank" rel="noopener noreferrer">
-                        <img src={centralCafeImg1} alt="카페 이내 무목 이미지"  />
+                        
                     </a>
+                    <SlideImg/>
                     <div className="part-1-detail">
                     <p>이내 무목</p>
                     <p>인공폭포가 이쁘고, 인테리어가 독특한 곳</p>
