@@ -1,36 +1,36 @@
-import { useState} from "react";
-
+import { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import './Slideimg.css'
+import './Slideimg.css';
 
-import images from "./centerimgs";
-
-const renderSlides = images.map(image => (
+const getSlides = (imageList) => {
+  return imageList.map((image) => (
     <div key={image.alt}>
       <img src={image.url} alt={image.alt} />
-  </div>
-));
+    </div>
+  ));
+};
 
-const SlideImg = () => {
+const SlideImg = ({ images }) => {
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-const [currentIndex, setCurrentIndex] = useState();
-  function handleChange(index) {
+  const handleChange = (index) => {
     setCurrentIndex(index);
-  }
+  };
 
   return (
     <div className="slideimg">
-        <Carousel
-          className="slideimg-1"
-          showArrows={true}
-          autoPlay={true}
-          infiniteLoop={true}
-          showThumbs={false}
-          selectedItem={images[currentIndex]}
-          onChange={handleChange}>
-          {renderSlides}
-        </Carousel>
+      <Carousel
+        className="slideimg-1"
+        showArrows={true}
+        autoPlay={true}
+        infiniteLoop={true}
+        showThumbs={false}
+        selectedItem={currentIndex}
+        onChange={handleChange}
+      >
+        {getSlides(images)}
+      </Carousel>
     </div>
   );
 };

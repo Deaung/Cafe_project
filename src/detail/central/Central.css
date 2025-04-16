@@ -55,3 +55,9 @@
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
 }
+
+.central-cafe a{
+  text-decoration: none;
+  font-family: 'Cafe24Ssurround';
+  color: black;
+}
