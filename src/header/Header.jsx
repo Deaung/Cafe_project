@@ -11,7 +11,7 @@ export default function Header() {
     return(
         <div className="header">
             {/* 클릭 시 루트로 복귀 */}
-            <button onClick={() => PageMove(navigate, "/")}>카페기행(임시)</button>
+            <button onClick={() => PageMove(navigate, "/")}>카페기행</button>
         </div>
     );
 }

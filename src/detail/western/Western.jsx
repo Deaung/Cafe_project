@@ -13,7 +13,7 @@ export default function Western() {
         <div className="western-cafe">
             <Header />
             
-            <div className="western-top">
+            
                 <div className="western-part1">
                     <a href="https://naver.me/5GpJSfRL" target="_blank" rel="noopener noreferrer">
                         <img src={westernCafeImg1} alt="카페 토북베이커리 이미지" />
@@ -37,9 +37,9 @@ export default function Western() {
                     </div>
                     
                 </div>
-            </div>
             
-            <div className="western-bottom">
+            
+            
                 <div className="western-part3">
                     <a href="https://naver.me/x7nJxtEm" target="_blank" rel="noopener noreferrer">
                         <img src={westernCafeImg3} alt="카페 바이버 이미지" />
@@ -63,7 +63,7 @@ export default function Western() {
                     </div>
                     
                 </div>
-            </div>
+            
             
             <Footer />
         </div>

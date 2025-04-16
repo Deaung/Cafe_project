@@ -5,6 +5,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body{
+  background-image:'src.img.busan.png' ;
+}
 
 
 
@@ -22,21 +25,33 @@
 .central-part1{
   display: flex;
   gap: 30px;
+  margin-left: 100px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .central-part2{
   display: flex;
   gap: 30px;
+  flex-direction: row-reverse;
+  margin-right: 100px;
+  align-items: center;
 }
 
 .central-part3{
   display: flex;
   gap: 30px;
+  margin-left: 100px;
+  align-items: center;
 }
 
 .central-part4{
   display: flex;
   gap: 30px;
+  flex-direction: row-reverse;
+  margin-right: 100px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 .part-1-detail{
