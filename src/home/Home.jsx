@@ -25,7 +25,8 @@ export default function Home() {
                 <button className="western-btn" onClick={() => PageMove(navigate, "western")}>서부권</button>
                 </div>
                 {/* 지도 이미지 */}
-                <img className="busan-map" src="src\img\busan.png" useMap="#img-busan"/>
+                <img className="busan-map" src="src\img\busan외곽선.png" useMap="#img-busan"/>
+                {/* <img className="busan-map2" src="src\img\busan외곽선.png" alt="부산지도" /> */}
                 {/* 지역별 버튼 */}
 
                     <map name="img-busan">

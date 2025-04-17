@@ -7,7 +7,7 @@ import southernCafeImg1 from "../../img/southernCafe1.jpg";
 import southernCafeImg2 from "../../img/southernCafe2.jpg";
 // import southernCafeImg3 from "../../img/southernCafe3.jpg";
 import southernCafeImg4 from "../../img/southernCafe4.jpg";
-import dogImg from "../../img/dogImg.jpg";
+// import dogImg from "../../img/dogImg.jpg";
 import { southimg } from "../../component/centerimgs.jsx";
 
 export default function Southern() {
@@ -53,7 +53,7 @@ export default function Southern() {
                         <p>#깜봉이 졸귀</p>
                         
                     </div>
-                    <img className="dog" src={dogImg} alt="검정 강아지 이미지" />
+                    {/* <img className="dog" src={dogImg} alt="검정 강아지 이미지" /> */}
                 </div>
 
                 <div className="southern-part4">

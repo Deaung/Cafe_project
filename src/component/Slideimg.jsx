@@ -21,7 +21,7 @@ const SlideImg = ({ images }) => {
   return (
     <div className="slideimg">
       <Carousel
-        className="slideimg-1"
+        className="slideimg"
         showArrows={true}
         autoPlay={true}
         infiniteLoop={true}

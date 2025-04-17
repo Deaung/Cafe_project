@@ -5,16 +5,15 @@
   font-weight: normal;
   font-style: normal;
 }
-body{
-  background-image:'src.img.busan.png' ;
-}
+
+/* .background{
+  position:absolute;
+  width: 1500px;
+  height: 1500px;
+} */
 
 
 
-.central-cafe img{
-  width: 330px;
-  height: 330px;
-}
 
 .central-cafe{
   display:flex;
@@ -27,7 +26,6 @@ body{
   gap: 30px;
   margin-left: 100px;
   align-items: center;
-  margin-top: 30px;
 }
 
 .central-part2{
@@ -51,8 +49,25 @@ body{
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
-  margin-bottom: 30px;
 }
+
+.central-part1 img{
+  width: 330px;
+  height: 350px;
+}
+.central-part2 img{
+  width: 330px;
+  height: 350px;
+}
+.central-part3 img{
+  width: 330px;
+  height: 350px;
+}
+.central-part4 img{
+  width: 330px;
+  height: 350px;
+}
+
 
 .part-1-detail{
   font-family: 'Cafe24Ssurround';
@@ -76,3 +91,5 @@ body{
   font-family: 'Cafe24Ssurround';
   color: black;
 }
+
+
