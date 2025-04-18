@@ -1,14 +1,14 @@
 import Footer from "../../footer/Footer.jsx";
 import Header from "../../header/Header.jsx";
-import SlideImg from '../../component/Slideimg.jsx'
+// import SlideImg from '../../component/Slideimg.jsx'
 import "./Southern.css";
 
 import southernCafeImg1 from "../../img/southernCafe1.jpg";
 import southernCafeImg2 from "../../img/southernCafe2.jpg";
-// import southernCafeImg3 from "../../img/southernCafe3.jpg";
+import southernCafeImg3 from "../../img/southernCafe3.jpg";
 import southernCafeImg4 from "../../img/southernCafe4.jpg";
-// import dogImg from "../../img/dogImg.jpg";
-import { southimg } from "../../component/centerimgs.jsx";
+import dogImg from "../../img/dogImg.jpg";
+// import { southimg } from "../../component/centerimgs.jsx";
 
 export default function Southern() {
     return (
@@ -42,10 +42,10 @@ export default function Southern() {
             
             
                 <div className="southern-part3">
-                    <SlideImg images={southimg}/>
+                    {/* <SlideImg images={southimg}/> */}
                     <div>
                     <a href="https://naver.me/5FmdGhxe" target="_blank" rel="noopener noreferrer">
-                        {/* <img className="southcafeImg-3" src={southernCafeImg3} alt="카페 깜봉 이미지" /> */}
+                        <img className="southcafeImg-3" src={southernCafeImg3} alt="카페 깜봉 이미지" />
                         <p>깜봉</p>
                     </a>
                         
@@ -53,7 +53,7 @@ export default function Southern() {
                         <p>#깜봉이 졸귀</p>
                         
                     </div>
-                    {/* <img className="dog" src={dogImg} alt="검정 강아지 이미지" /> */}
+                    <img className="dog" src={dogImg} alt="검정 강아지 이미지" />
                 </div>
 
                 <div className="southern-part4">
