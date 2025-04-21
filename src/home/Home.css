@@ -94,7 +94,7 @@ html,body{
 }
 .region-preview-southern {
   position: absolute;
-  top: 500px;
+  top: 700px;
   left: 1050px; 
   z-index: 1;
 }

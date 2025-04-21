@@ -74,10 +74,9 @@
   height: 330px;
 }
 .dog{
-  /* margin-left: 100px; */
+  margin-left: 400px;
   width: 220px;
   height: 220px;
-  /* filter: blur(1px); */
   border-radius: 50%;
   z-index: 2;
 }
@@ -111,7 +110,6 @@
 .south{
   position: absolute;
   z-index: 1;
-
   margin-left: 250px;
-  margin-top: 300px;
+  margin-top: 700px;
 }
