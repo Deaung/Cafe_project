@@ -1,12 +1,13 @@
 .footer{
-  margin-top: 40px;
-  font-family: 'Cafe24Ssurround';
+  margin-top: 80px;
+  font-family:'SUIT-Regular';
   font-size: 22px;
   text-align: center;
+  font-weight: 50;
 }
 @font-face {
-  font-family: 'Cafe24Ssurround';
-  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+  font-family: 'SUIT-Regular';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }

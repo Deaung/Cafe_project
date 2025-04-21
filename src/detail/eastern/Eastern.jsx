@@ -1,5 +1,3 @@
-import Footer from "../../footer/Footer.jsx";
-import Header from "../../header/Header.jsx";
 
 import "./Eastern.css";
 
@@ -7,13 +5,14 @@ import easternCafeImg1 from "../../img/easternCafe1.jpg";
 import easternCafeImg2 from "../../img/easternCafe2.jpg";
 import easternCafeImg3 from "../../img/easternCafe3.jpg";
 import easternCafeImg4 from "../../img/easternCafe4.jpg";
+import eastImg from "../../img/detail-east.png";
 
 export default function Eastern() {
     return (
         <div className="eastern-cafe">
-            {/* <Header /> */}
+            <img src={eastImg} alt="지도" className="eastern"/>
 
-            <div className="eastern-top">
+
             <div className="eastern-part1">
                 <a href="https://naver.me/GWeDhKuX" target="_blank" rel="noopener noreferrer">
                     <img src={easternCafeImg1} alt="카페 두루미 베이커리 이미지" />
@@ -35,10 +34,10 @@ export default function Eastern() {
                     <p>#뷰 이쁨</p>
                 </div>
                 
-            </div>
+
             </div>
             
-            <div className="eastern-bottom">
+            
                 <div className="eastern-part3">
                     <a href="https://naver.me/Fjbgyb3X" target="_blank" rel="noopener noreferrer">
                         <img src={easternCafeImg3} alt="카페 코랄라니 이미지" />
@@ -63,7 +62,7 @@ export default function Eastern() {
                     
                 </div>
 
-            </div>
+            
             
             {/* <Footer /> */}
         </div>

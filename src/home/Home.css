@@ -39,6 +39,7 @@ html,body{
   border: none;
   font-family: 'Cafe24Ssurround';
   font-size: 24px;
+  z-index: 2;
 }
 .buttons button:hover {
   box-shadow:
@@ -51,6 +52,7 @@ html,body{
   cursor: pointer;
 }
 .busan-svg-map {
+  z-index: 2;
   width: 100%;
   height: auto;
   max-width: 1000px;
@@ -59,8 +61,7 @@ html,body{
 }
 
 .region {
-  fill: transparent;
-  stroke: transparent;
+  
   cursor: pointer;
   transition: fill 0.3s ease;
 }
@@ -69,39 +70,36 @@ html,body{
   position: relative;
 }
 
-/* 미리보기 공통 스타일 */
-.region-preview {
-  display: none;
+
+.region-preview-center{
   position: absolute;
-  top: 50px;
-  left: 980px; /* SVG 바깥 오른쪽에 표시되도록 위치 조절 */
-  z-index: 10;
-  background: white;
-  border: 1px solid #ccc;
+  top: 70px;
+  left: 750px; 
+  z-index: 1;
   padding: 6px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  width: 200px;
-}
 
-.region-preview img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
 }
-
-/* 각각의 영역에 hover 했을 때 연결된 미리보기만 보이기 */
-.region-central:hover ~ .region-central-preview {
-  display: block;
+.region-preview-eastern {
+  fill: transparent;
+  stroke: transparent;
+  position: absolute;
+  top: 250px;
+  left: 1200px; 
+  z-index: 1;
 }
-
-.region-eastern:hover ~ .region-eastern-preview {
-  display: block;
+.region-preview-western {
+  fill: transparent;
+  stroke: transparent;
+  position: absolute;
+  top: 400px;
+  left: 230px; 
+  z-index: 1;
 }
-
-.region-western:hover ~ .region-western-preview {
-  display: block;
-}
-
-.region-southern:hover ~ .region-southern-preview {
-  display: block;
+.region-preview-southern {
+  fill: transparent;
+  stroke: transparent;
+  position: absolute;
+  top: 700px;
+  left: 1050px; 
+  z-index: 1;
 }

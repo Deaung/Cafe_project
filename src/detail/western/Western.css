@@ -6,11 +6,6 @@
 }
 
 
-/* .western-cafe img{
-  width: 330px;
-  height: 330px;
-} */
-
 .western-cafe{
   display:flex;
   flex-direction: column;
@@ -20,8 +15,8 @@
   position: absolute;
   z-index: 1;
 
-  margin-left: 650px;
-  margin-top: 500px;
+  margin-left: 600px;
+  margin-top: 300px;
 }
 
 
@@ -38,9 +33,6 @@
   width: 330px;
   height: 330px;
 }
-
-
-
 
 .western-part2{
   display: flex;
@@ -98,7 +90,7 @@
 }
 
 .western-part3 {
-  background: radial-gradient(circle at 50% 50%, #e1eaff 0%, transparent 70%);
+  background: radial-gradient(circle at 20% 70%, #e1eaff 0%, transparent 70%);
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 12px;

@@ -1,5 +1,4 @@
-import Footer from "../../footer/Footer.jsx";
-import Header from "../../header/Header.jsx";
+
 
 import "./Western.css";
 
@@ -7,13 +6,12 @@ import westernCafeImg1 from "../../img/westernCafe1.jpg";
 import westernCafeImg2 from "../../img/westernCafe2.jpg";
 import westernCafeImg3 from "../../img/westernCafe3.jpg";
 import westernCafeImg4 from "../../img/westernCafe4.jpg";
+import westImg from "../../img/detail-west.png";
 
 export default function Western() {
     return (
         <div className="western-cafe">
-            {/* <Header /> */}
-            <img src="src\img\west-point.png" alt="지도" className="western"/>
-            
+            <img src={westImg} alt="지도" className="western"/>
             
                 <div className="western-part1">
                     <a href="https://naver.me/5GpJSfRL" target="_blank" rel="noopener noreferrer">
@@ -62,11 +60,7 @@ export default function Western() {
                         <p>주차가 편하고, 애견동반 가능</p>
                         <p>#조용한 분위기</p>
                     </div>
-                    
                 </div>
-            
-            
-            {/* <Footer /> */}
         </div>
     );
 }

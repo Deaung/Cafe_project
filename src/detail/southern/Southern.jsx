@@ -1,6 +1,4 @@
-import Footer from "../../footer/Footer.jsx";
-import Header from "../../header/Header.jsx";
-// import SlideImg from '../../component/Slideimg.jsx'
+
 import "./Southern.css";
 
 import southernCafeImg1 from "../../img/southernCafe1.jpg";
@@ -8,13 +6,12 @@ import southernCafeImg2 from "../../img/southernCafe2.jpg";
 import southernCafeImg3 from "../../img/southernCafe3.jpg";
 import southernCafeImg4 from "../../img/southernCafe4.jpg";
 import dogImg from "../../img/dogImg.jpg";
-// import { southimg } from "../../component/centerimgs.jsx";
+import southImg from "../../img/detail-south.png";
 
 export default function Southern() {
     return (
         <div className="southern-cafe">
-            {/* <Header /> */}
-            
+            <img src={southImg} alt="지도" className="south"/>
                 <div className="southern-part1">
                     <a href="https://naver.me/FqWtmvhO" target="_blank" rel="noopener noreferrer">
                         <img src={southernCafeImg1} alt="카페 피아크 이미지" />
@@ -42,11 +39,11 @@ export default function Southern() {
             
             
                 <div className="southern-part3">
-                    <div>
+                    
                     <a href="https://naver.me/5FmdGhxe" target="_blank" rel="noopener noreferrer">
                         <img className="southcafeImg-3" src={southernCafeImg3} alt="카페 깜봉 이미지" />
-                        
                     </a>
+                    <div>
                     <p>깜봉</p>
                         <p>깜봉이라는 강아지가 있고, 커피와 위스키를 함께 팜</p>
                         <p>#깜봉이 졸귀</p>
