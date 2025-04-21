@@ -1,23 +1,15 @@
-import Footer from "../../footer/Footer.jsx";
-import Header from "../../header/Header.jsx";
-// import SwiperImage from "../../component/ImgMove.tsx";
 import "./Central.css";
-// import SlideImg from '../../component/Slideimg.jsx'
 
 import centralCafeImg1 from "../../img/centralCafe1.jpg";
 import centralCafeImg2 from "../../img/centralCafe2.jpg";
 import centralCafeImg3 from "../../img/centralCafe3.jpg";
 import centralCafeImg4 from "../../img/centralCafe4.jpg";
-// import { images_1, images_2, images_3, images_4 } from "../../component/centerimgs.jsx";
-
+import centerImg from "../../img/detail-center.png";
 
 export default function Central() {
     return (
         <div className="central-cafe">
-            {/* <Header /> */}
-            {/* <img src="src\img\중부.png" alt="이미지" className="background"/> */}
-            
-                
+            <img src={centerImg} alt="지도" className="central"/>
                 <div className="central-part1">
                     <a href="https://naver.me/5Q3mYIGJ" target="_blank" rel="noopener noreferrer">
                         <img src={centralCafeImg1} alt="이내 무목 이미지"/>
@@ -71,10 +63,6 @@ export default function Central() {
                 </div>
                 
             </div>
-        
-            
-
-            {/* <Footer /> */}
         </div>
     );
 }

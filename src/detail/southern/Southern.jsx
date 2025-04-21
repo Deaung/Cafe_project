@@ -1,6 +1,4 @@
-import Footer from "../../footer/Footer.jsx";
-import Header from "../../header/Header.jsx";
-// import SlideImg from '../../component/Slideimg.jsx'
+
 import "./Southern.css";
 
 import southernCafeImg1 from "../../img/southernCafe1.jpg";
@@ -8,13 +6,12 @@ import southernCafeImg2 from "../../img/southernCafe2.jpg";
 import southernCafeImg3 from "../../img/southernCafe3.jpg";
 import southernCafeImg4 from "../../img/southernCafe4.jpg";
 import dogImg from "../../img/dogImg.jpg";
-// import { southimg } from "../../component/centerimgs.jsx";
+import southImg from "../../img/detail-south.png";
 
 export default function Southern() {
     return (
         <div className="southern-cafe">
-            {/* <Header /> */}
-            
+            <img src={southImg} alt="지도" className="south"/>
                 <div className="southern-part1">
                     <a href="https://naver.me/FqWtmvhO" target="_blank" rel="noopener noreferrer">
                         <img src={southernCafeImg1} alt="카페 피아크 이미지" />

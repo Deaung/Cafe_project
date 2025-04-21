@@ -6,21 +6,16 @@
   font-style: normal;
 }
 
-/* .background{
-  position:absolute;
-  width: 1500px;
-  height: 1500px;
-} */
-Header{
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-
-
 .central-cafe{
   display:flex;
   flex-direction: column;
+}
+.central{
+  position: absolute;
+  z-index: 1;
+
+  margin-left: 400px;
+  margin-top: 550px;
 }
 
 
@@ -29,6 +24,7 @@ Header{
   gap: 30px;
   margin-left: 100px;
   align-items: center;
+  z-index: 2;
 }
 
 .central-part2{
@@ -37,6 +33,7 @@ Header{
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 2;
 }
 
 .central-part3{
@@ -44,6 +41,7 @@ Header{
   gap: 30px;
   margin-left: 100px;
   align-items: center;
+  z-index: 2;
 }
 
 .central-part4{
@@ -52,6 +50,7 @@ Header{
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 2;
 }
 
 .central-part1 img{

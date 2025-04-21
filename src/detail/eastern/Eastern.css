@@ -5,16 +5,17 @@
   font-style: normal;
 }
 
-
-.eastern-cafe img{
-  width: 330px;
-  height: 330px;
-}
-
 .eastern-cafe{
   display:flex;
   flex-direction: column;
 }
+.eastern{
+  position: absolute;
+  z-index: 1;
+  margin-left: 200px;
+  margin-top: 400px;
+}
+
 
 .eastern-part1{
   display: flex;
@@ -23,6 +24,11 @@
   font-size: 24px;
   margin-left: 100px;
   align-items: center;
+  z-index: 300;
+}
+.eastern-part1 img{
+  width: 330px;
+  height: 330px;
 }
 .eastern-part2{
   display: flex;
@@ -32,6 +38,11 @@
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 300;
+}
+.eastern-part2 img{
+  width: 330px;
+  height: 330px;
 }
 .eastern-part3{
   display: flex;
@@ -40,6 +51,11 @@
   font-size: 24px;
   margin-left: 100px;
   align-items: center;
+  z-index: 300;
+}
+.eastern-part3 img{
+  width: 330px;
+  height: 330px;
 }
 .eastern-part4{
   display: flex;
@@ -49,6 +65,11 @@
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 200;
+}
+.eastern-part4 img{
+  width: 330px;
+  height: 330px;
 }
 
 .eastern-part1 {
@@ -78,4 +99,5 @@
   margin-bottom: 30px;
   border-radius: 12px;
 }
+
 

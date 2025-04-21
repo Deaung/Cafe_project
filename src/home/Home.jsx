@@ -4,6 +4,11 @@ import { useNavigate } from "react-router-dom";
 import PageMove from "../component/PageMovie.jsx";
 import { useState } from "react";
 
+import centralPoint from "../img/center-point.png";
+import eastPoint from "../img/east-point.png";
+import southernPoint from "../img/south-point.png";
+import westPoint from "../img/west-point.png";
+
 
 import "./Home.css";
 
@@ -72,22 +77,22 @@ export default function Home() {
 
                     {hoverRegion === "central" && (
                         <div className="region-preview-center">
-                            <img src="/img/center-point.png" alt="중부권 미리보기" />
+                            <img src={centralPoint} alt="중부권 미리보기" />
                         </div>
                         )}
                     {hoverRegion === "eastern" && (
                         <div className="region-preview-eastern">
-                            <img src="/img/east-point.png" alt="동부권 미리보기" />
+                            <img src={eastPoint} alt="동부권 미리보기" />
                         </div>
                         )}
                     {hoverRegion === "western" && (
                         <div className="region-preview-western">
-                            <img src="/img/west-point.png" alt="서부권 미리보기" />
+                            <img src={westPoint} alt="서부권 미리보기" />
                         </div>
                         )}
                     {hoverRegion === "southern" && (
                         <div className="region-preview-southern">
-                            <img src="/img/south-point.png" alt="남부권 미리보기" />
+                            <img src={southernPoint} alt="남부권 미리보기" />
                         </div>
                         )}
 
