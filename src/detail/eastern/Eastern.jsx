@@ -11,7 +11,7 @@ import easternCafeImg4 from "../../img/easternCafe4.jpg";
 export default function Eastern() {
     return (
         <div className="eastern-cafe">
-            <Header />
+            {/* <Header /> */}
 
             <div className="eastern-top">
             <div className="eastern-part1">
@@ -65,7 +65,7 @@ export default function Eastern() {
 
             </div>
             
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

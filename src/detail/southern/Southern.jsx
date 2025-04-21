@@ -13,7 +13,7 @@ import dogImg from "../../img/dogImg.jpg";
 export default function Southern() {
     return (
         <div className="southern-cafe">
-            <Header />
+            {/* <Header /> */}
             
                 <div className="southern-part1">
                     <a href="https://naver.me/FqWtmvhO" target="_blank" rel="noopener noreferrer">
@@ -42,13 +42,12 @@ export default function Southern() {
             
             
                 <div className="southern-part3">
-                    {/* <SlideImg images={southimg}/> */}
-                    <div>
+                    
                     <a href="https://naver.me/5FmdGhxe" target="_blank" rel="noopener noreferrer">
                         <img className="southcafeImg-3" src={southernCafeImg3} alt="카페 깜봉 이미지" />
-                        <p>깜봉</p>
                     </a>
-                        
+                    <div>
+                    <p>깜봉</p>
                         <p>깜봉이라는 강아지가 있고, 커피와 위스키를 함께 팜</p>
                         <p>#깜봉이 졸귀</p>
                         
@@ -70,7 +69,7 @@ export default function Southern() {
             
             
             
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

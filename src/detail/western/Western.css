@@ -6,14 +6,22 @@
 }
 
 
-.western-cafe img{
+/* .western-cafe img{
   width: 330px;
   height: 330px;
-}
+} */
 
 .western-cafe{
   display:flex;
   flex-direction: column;
+}
+
+.western{
+  position: absolute;
+  z-index: 1;
+
+  margin-left: 650px;
+  margin-top: 500px;
 }
 
 
@@ -24,7 +32,16 @@
   font-size: 24px;
   margin-left: 100px;
   align-items: center;
+  z-index: 2;
 }
+.western-part1 img{
+  width: 330px;
+  height: 330px;
+}
+
+
+
+
 .western-part2{
   display: flex;
   gap: 30px;
@@ -33,6 +50,11 @@
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 2;
+}
+.western-part2 img{
+  width: 330px;
+  height: 330px;
 }
 .western-part3{
   display: flex;
@@ -41,6 +63,11 @@
   font-size: 24px;
   margin-left: 100px;
   align-items: center;
+  z-index: 2;
+}
+.western-part3 img{
+  width: 330px;
+  height: 330px;
 }
 .western-part4{
   display: flex;
@@ -50,4 +77,36 @@
   flex-direction: row-reverse;
   margin-right: 100px;
   align-items: center;
+  z-index: 2;
+}
+.western-part4 img{
+  width: 330px;
+  height: 330px;
+}
+.western-part1 {
+  background: radial-gradient(circle at 30% 30%, #f5e1e1 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.western-part2 {
+  background: radial-gradient(circle at 70% 20%, #e1f5e9 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.western-part3 {
+  background: radial-gradient(circle at 50% 50%, #e1eaff 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.western-part4 {
+  background: radial-gradient(circle at 60% 80%, #f9e1ff 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
 }

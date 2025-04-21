@@ -5,23 +5,17 @@
     font-weight: normal;
     font-style: normal;
 }
-.header{
-    margin-bottom: 60px;
-    margin-top: 20px;
-}
 
 .header button {
-    position: absolute;
     all: unset; 
-    font-size: 2rem; 
+    /* font-size: 36px;  */
     font-weight: bold;
     cursor: pointer; 
     display: block; 
     text-align: center; 
     margin: 10px 0;
     font-family: 'Cafe24Ssurround';
-    font-size: 60px;
-    
+    font-size: 50px;
+    margin-bottom: 30px;
     margin-left: 40px;
-    
 }

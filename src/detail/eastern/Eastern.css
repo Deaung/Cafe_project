@@ -51,4 +51,31 @@
   align-items: center;
 }
 
+.eastern-part1 {
+  background: radial-gradient(circle at 30% 30%, #f5e1e1 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.eastern-part2 {
+  background: radial-gradient(circle at 70% 20%, #e1f5e9 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.eastern-part3 {
+  background: radial-gradient(circle at 50% 50%, #e1eaff 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+.eastern-part4 {
+  background: radial-gradient(circle at 60% 80%, #f9e1ff 0%, transparent 70%);
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
 
