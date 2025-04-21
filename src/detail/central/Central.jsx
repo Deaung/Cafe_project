@@ -14,7 +14,7 @@ import centralCafeImg4 from "../../img/centralCafe4.jpg";
 export default function Central() {
     return (
         <div className="central-cafe">
-            <Header />
+            {/* <Header /> */}
             {/* <img src="src\img\중부.png" alt="이미지" className="background"/> */}
             
                 
@@ -74,7 +74,7 @@ export default function Central() {
         
             
 
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

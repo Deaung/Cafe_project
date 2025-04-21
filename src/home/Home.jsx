@@ -14,7 +14,7 @@ export default function Home() {
         // 페이지 전체
         <div className="home-container">
             {/* header */}
-            <Header />
+            {/* <Header /> */}
 
             {/* body */}
             <div className="home-body">
@@ -35,7 +35,7 @@ export default function Home() {
                         fill="transparent"
                         stroke="#f00"
                         strokeWidth="2"
-                        className="region central"
+                        className="region region-central"
                         onClick={() => PageMove(navigate, "central")}
                     />
 
@@ -45,7 +45,7 @@ export default function Home() {
                         fill="transparent"
                         stroke="#00f"
                         strokeWidth="2"
-                        className="region eastern"
+                        className="region region-eastern"
                         onClick={() => PageMove(navigate, "eastern")}
                     />
 
@@ -55,7 +55,7 @@ export default function Home() {
                         fill="transparent"
                         stroke="#0a0"
                         strokeWidth="2"
-                        className="region western"
+                        className="region region-western"
                         onClick={() => PageMove(navigate, "western")}
                     />
 
@@ -65,15 +65,26 @@ export default function Home() {
                         fill="transparent"
                         stroke="#fa0"
                         strokeWidth="2"
-                        className="region southern"
+                        className="region region-southern"
                         onClick={() => PageMove(navigate, "southern")}
                     />
                     </svg>
-                        <img src="src\img\center-point.png" alt="중앙포인트" className="hover-image" />
+                    <div className="region-preview region-central-preview">
+                        <img src="/img/center-point.png" alt="중부권 미리보기" />
+                    </div>
+                    <div className="region-preview region-eastern-preview">
+                        <img src="/img\east-point.png" alt="동부권 미리보기" />
+                    </div>
+                    <div className="region-preview region-western-preview">
+                        <img src="/img/west-point.png" alt="서부권 미리보기" />
+                    </div>
+                    <div className="region-preview region-southern-preview">
+                        <img src="/img\south-point.png" alt="남부권 미리보기" />
+                    </div>
 
                     </div>
             {/* footer */}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }

@@ -65,16 +65,43 @@ html,body{
   transition: fill 0.3s ease;
 }
 
-.hover-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.svg-container {
+  position: relative;
 }
 
-.region.central:hover ~ .hover-image {
-  opacity: 1;
+/* 미리보기 공통 스타일 */
+.region-preview {
+  display: none;
+  position: absolute;
+  top: 50px;
+  left: 980px; /* SVG 바깥 오른쪽에 표시되도록 위치 조절 */
+  z-index: 10;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+}
+
+.region-preview img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* 각각의 영역에 hover 했을 때 연결된 미리보기만 보이기 */
+.region-central:hover ~ .region-central-preview {
+  display: block;
+}
+
+.region-eastern:hover ~ .region-eastern-preview {
+  display: block;
+}
+
+.region-western:hover ~ .region-western-preview {
+  display: block;
+}
+
+.region-southern:hover ~ .region-southern-preview {
+  display: block;
 }

@@ -11,8 +11,8 @@ import westernCafeImg4 from "../../img/westernCafe4.jpg";
 export default function Western() {
     return (
         <div className="western-cafe">
-            <Header />
-            <img src="src\img\overflowing-coffee-spilled-coffee-illustration_773815-26.avif" alt="지도" className="western"/>
+            {/* <Header /> */}
+            <img src="src\img\west-point.png" alt="지도" className="western"/>
             
             
                 <div className="western-part1">
@@ -66,7 +66,7 @@ export default function Western() {
                 </div>
             
             
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
