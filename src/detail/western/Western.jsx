@@ -20,7 +20,7 @@ export default function Western() {
                     <div>
                         <p>토북베이커리</p>
                         <p>주차시설 좋고, 빵 장인 김덕규씨가 운영하는 카페</p>
-                        <p>#빵이 대존맛</p>
+                        <p>#_빵이 대존맛</p>
                     </div>
                     
                 </div>
