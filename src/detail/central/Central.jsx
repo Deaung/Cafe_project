@@ -4,7 +4,7 @@ import centralCafeImg1 from "../../img/centralCafe1.jpg";
 import centralCafeImg2 from "../../img/centralCafe2.jpg";
 import centralCafeImg3 from "../../img/centralCafe3.jpg";
 import centralCafeImg4 from "../../img/centralCafe4.jpg";
-import centerImg from "../../img/detail-center.png";
+import centerImg from "../../img/center-non.png";
 
 export default function Central() {
     return (
@@ -27,7 +27,7 @@ export default function Central() {
                         
                     </a>
                     <div className="part-2-detail">
-                    <p>뱅커</p>
+                        <p>뱅커</p>
                         <p>쿠키와 빵 종류가 다양하고, 넓음</p>
                         <p>#크로플</p>
                     </div>

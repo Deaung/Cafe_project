@@ -1,9 +1,10 @@
 .footer{
   margin-top: 80px;
   font-family:'SUIT-Regular';
-  font-size: 22px;
+  font-size: 14px;
   text-align: center;
   font-weight: 50;
+  color: gray;
 }
 @font-face {
   font-family: 'SUIT-Regular';

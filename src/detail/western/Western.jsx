@@ -6,7 +6,7 @@ import westernCafeImg1 from "../../img/westernCafe1.jpg";
 import westernCafeImg2 from "../../img/westernCafe2.jpg";
 import westernCafeImg3 from "../../img/westernCafe3.jpg";
 import westernCafeImg4 from "../../img/westernCafe4.jpg";
-import westImg from "../../img/detail-west.png";
+import westImg from "../../img/west.png";
 
 export default function Western() {
     return (
