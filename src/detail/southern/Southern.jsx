@@ -6,7 +6,7 @@ import southernCafeImg2 from "../../img/southernCafe2.jpg";
 import southernCafeImg3 from "../../img/southernCafe3.jpg";
 import southernCafeImg4 from "../../img/southernCafe4.jpg";
 import dogImg from "../../img/dogImg.jpg";
-import southImg from "../../img/detail-south.png";
+import southImg from "../../img/south.png";
 
 export default function Southern() {
     return (
@@ -19,7 +19,7 @@ export default function Southern() {
                     <div>
                         <p>피아크</p>
                         <p>주차장이 넓고, 아이스크림이 맛있는곳</p>
-                        <p>#주차장 넓음</p>
+                        <p>#주차장_넓음</p>
                     </div>
                     
                 </div>
@@ -46,7 +46,7 @@ export default function Southern() {
                     <div>
                     <p>깜봉</p>
                         <p>깜봉이라는 강아지가 있고, 커피와 위스키를 함께 팜</p>
-                        <p>#깜봉이 졸귀</p>
+                        <p>#깜봉이_졸귀</p>
                         
                     </div>
                     <img className="dog" src={dogImg} alt="검정 강아지 이미지" />
@@ -59,7 +59,7 @@ export default function Southern() {
                     <div>
                         <p>글루크</p>
                         <p>분위기 있는 브런치 카페</p>
-                        <p>#의자 불편함</p>
+                        <p>#의자_불편함</p>
                     </div>
                     
                 </div>

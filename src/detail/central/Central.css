@@ -13,8 +13,8 @@
 .central{
   position: absolute;
   z-index: 1;
-  margin-left: 400px;
-  margin-top: 350px;
+  margin-left: 880px;
+  margin-top: 450px;
 }
 
 
@@ -94,28 +94,28 @@
 }
 
 .central-part1 {
-  background: radial-gradient(circle at 30% 30%, #ffff 0%, transparent 40%);
+  background: radial-gradient(circle at 30% 30%, #ffff 0%, transparent 80%);
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 12px;
 }
 
 .central-part2 {
-  background: radial-gradient(circle at 70% 20%, #ffff 0%, transparent 40%);
+  background: radial-gradient(circle at 70% 20%, #ffff 0%, transparent 80%);
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 12px;
 }
 
 .central-part3 {
-  background: radial-gradient(circle at 50% 50%, #ffff 0%, transparent 40%);
+  background: radial-gradient(circle at 50% 50%, #ffff 0%, transparent 80%);
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 12px;
 }
 
 .central-part4 {
-  background: radial-gradient(circle at 60% 80%, #ffff 0%, transparent 40%);
+  background: radial-gradient(circle at 60% 80%, #ffff 0%, transparent 80%);
   padding: 20px;
   margin-bottom: 30px;
   border-radius: 12px;

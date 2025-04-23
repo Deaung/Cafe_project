@@ -4,7 +4,7 @@ import centralCafeImg1 from "../../img/centralCafe1.jpg";
 import centralCafeImg2 from "../../img/centralCafe2.jpg";
 import centralCafeImg3 from "../../img/centralCafe3.jpg";
 import centralCafeImg4 from "../../img/centralCafe4.jpg";
-import centerImg from "../../img/center-non.png";
+import centerImg from "../../img/center.png";
 
 export default function Central() {
     return (
@@ -46,7 +46,7 @@ export default function Central() {
                 <div className="part-3-detail">
                 <p>이디야커피 부산지오플레이스점</p>
                 <p>사장님이 친절하고, 분위기가 조용함</p>
-                <p>#공부하기 좋은 카페</p>
+                <p>#공부하기_좋은_카페</p>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ export default function Central() {
                 <div className="part-4-detail">
                 <p>오프커스</p>
                 <p>서면에서 보기 드문 대형 카페</p>
-                <p>#커피가 맛있음 #서면 대형 카페</p>
+                <p>#커피가_맛있음 #서면_대형_카페</p>
                 </div>
                 
             </div>

@@ -5,7 +5,7 @@ import easternCafeImg1 from "../../img/easternCafe1.jpg";
 import easternCafeImg2 from "../../img/easternCafe2.jpg";
 import easternCafeImg3 from "../../img/easternCafe3.jpg";
 import easternCafeImg4 from "../../img/easternCafe4.jpg";
-import eastImg from "../../img/detail-east.png";
+import eastImg from "../../img/east.png";
 
 export default function Eastern() {
     return (
@@ -20,7 +20,7 @@ export default function Eastern() {
                 <div>
                 <p>두루미 베이커리 카페</p>
                 <p>주차시절이 잘 되어있고, 애견 동반이 가능하고 커피가 맛있음</p>
-                <p>#애견동반 가능 #강아지 귀여움</p>
+                <p>#애견동반_가능 #강아지_귀여움</p>
                 </div>
             </div>
 
@@ -31,7 +31,7 @@ export default function Eastern() {
                 <div>
                     <p>웨이브온 커피</p>
                     <p>인스타 사진 찍기 좋으나 유명해서 사람이 너무 많음</p>
-                    <p>#뷰 이쁨</p>
+                    <p>#뷰_이쁨</p>
                 </div>
                 
 
