@@ -81,31 +81,31 @@
   z-index: 2;
 }
 .southern-part1 {
-  background: radial-gradient(circle at 30% 30%, #ffff 0%, transparent 80%);
+  background: radial-gradient(circle at 30% 30%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .southern-part2 {
-  background: radial-gradient(circle at 70% 20%, #ffff 0%, transparent 80%);
+  background: radial-gradient(circle at 70% 20%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .southern-part3 {
-  background: radial-gradient(circle at 50% 50%, #ffff 0%, transparent 80%);
+  background: radial-gradient(circle at 50% 50%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 
 .southern-part4 {
-  background: radial-gradient(circle at 60% 80%, #ffff 0%, transparent 80%);
+  background: radial-gradient(circle at 60% 80%, #FFFDF3 0%, transparent 95%);
   padding: 20px;
   margin-bottom: 30px;
-  border-radius: 12px;
+  /* border-radius: 12px; */
 }
 .south{
   position: absolute;

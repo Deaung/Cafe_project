@@ -7,7 +7,7 @@
 
 .header button {
     all: unset; 
-    font-weight: bold;
+    /* font-weight: bold; */
     cursor: pointer; 
     display: block; 
     text-align: center; 
